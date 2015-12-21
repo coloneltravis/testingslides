@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    link(rel='stylesheet' href='/css/main.css' type='text/css')
+  body
+    div.slide-container
+      h1.slide-heading= title
+      div.slide-content!= contents
+      div.slide-footer
+        div.slide-nav
+          if previous
+            a(href='/'+previous.path) Previous
+
+          if next
+            a(href='/'+next.path) Next
