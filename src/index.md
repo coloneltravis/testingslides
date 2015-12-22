@@ -4,4 +4,4 @@ layout: default.jade
 permalink: false
 ---
 
-[Slideshow](/slides/slide-1)
+[Slideshow](/slides/slide1)
